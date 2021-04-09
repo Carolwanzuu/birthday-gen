@@ -10,18 +10,48 @@
 
 <body>
     <form>
-        <label for="gender">Gender</label>
-        <select id="gender" name="gen">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
+        <input type="checkbox" id="male" name="gender" value="male">
+        <label for="gender"> Male</label><br>
+        <input type="checkbox" id="female" name="gender2" value="female">
+        <label for="gender2">Female</label><br>
+        <br>
+        <br>
+        <br>
+        <label for="century">Century</label>
+        <select id="century" name="centr">
+            <option value="century">0</option>
+
         </select>
         <br>
         <br>
         <br>
-        <input type="date" name="date" id="date">
-
+        <form>
+        <label for="yearce">Year</label>
+        <select id="year" name="year1">
+            <option value="Year">0</option>
+        </select>
+        </form>
+        <br>
+        <br>
+        <form>
+        <label for="month">Month</label>
+        <select id="month" name="month1">
+            <option value="month">0</option>
+        </select>
+        </form>
+        <br>
+        <br>
+        <form>
+        <label for="day">Day</label>
+        <select id="day" name="day1">
+            <option value="day">0</option>
+        </select>
+        <br>
+        <br>
+        <button type="button" onclick="alert()">Find name</button>
 
     </form>
+
 
 </body>
 
