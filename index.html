@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="Jumbotron">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class = "left">
+                    <h1>AKAN NAMES</h1>
+                    <P>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
+
+                    </P>
+                    <h2>MALE</h2>
+                    <ul>
+                        <li>Sunday: Kwasi</li>
+                        <li>Monday: Kwadwo</li>
+                        <li>Tuesday: Kwabena</li>
+                        <li>Wednesday: Kwaku</li>
+                        <li>Thursday:  Yaw</li>
+                        <li>Friday: Kofi</li>
+                        <li>Saturday: Kwame</li>
+                    </ul>
+                    <h2>FEMALE</h2>
+                    <ul>
+                        <li>Sunday: Akosua</li>
+                        <li>Monday: Adwoa</li>
+                        <li>Tuesday: Abenaa</li>
+                        <li>Wednesday: Akua</li>
+                        <li>Thursday:  Yaa</li>
+                        <li>Friday: Afua</li>
+                        <li>Saturday: Ama</li>
+                     </ul>
+                </div>
+                </div>
+                <br>
+                <br>
+                <div class="col-md-6">
+                    <div class = "right">
+                    <h2>Akan Names </h2>
+                
+                <form>
+
+                    <input class="form-control" type="text" id="year" placeholder="Enter the Year" aria-label="">
+                    <br>
+                    <br>
+                    <input class="form-control" type="text" id="month" placeholder="Enter the month" aria-label="">
+                    <br>
+                    <br>
+                    <input class="form-control" type="text" id="day" placeholder="Enter the day" aria-label="">
+                    <br>
+                    <br>
+                </form>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1" value="Male">
+                        Male
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radio" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2" value="Female">
+                        Female
+                    </label>
+                </div>
+                <br>
+                <br>
+                <button type="submit" class="btn btn-primary mb-3" onclick="getAkanName()">Get an Akan Name</button>
+
+                <div class="Jumbotron m-5 pt-5">
+                    <p id="result"></p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
