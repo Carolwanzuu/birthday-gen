@@ -1,31 +1,35 @@
-let male = function(){
-    Sunday: Kwasi
+// let male = function(){
+//     Sunday: Kwasi
 
-    Monday: Kwadwo
+//     Monday: Kwadwo
 
-    Tuesday: Kwabena
+//     Tuesday: Kwabena
 
-    Wednesday: Kwaku
+//     Wednesday: Kwaku
 
-    Thursday:  Yaw
+//     Thursday:  Yaw
 
-    Friday: Kofi
+//     Friday: Kofi
 
-    Saturday: Kwame
-};
+//     Saturday: Kwame
+// };
 
-let female = function(){
-    Sunday: Akosua
+// let female = function(){
+//     Sunday: Akosua
 
-    Monday: Adwoa
+//     Monday: Adwoa
 
-    Tuesday: Abenaa
+//     Tuesday: Abenaa
 
-    Wednesday: Akua
+//     Wednesday: Akua
 
-    Thursday:  Yaa
+//     Thursday:  Yaa
 
-    Friday: Afua
+//     Friday: Afua
 
-    Saturday: Ama
-};
+//     Saturday: Ama
+// };
+
+let weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+let male_names = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku" "Yaw", "Kofi", "Kwame"];
+let female_names = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
