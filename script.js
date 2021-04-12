@@ -20,6 +20,14 @@ function getBirthday(){
     console.log(CC);
     console.log(MM);
     console.log(DD);
+
+    if (DD <= 0 || DD > 31)
+        alert("Enter a valid one")
+    }else if(MM <O || MM > 12){
+        alert("enter a valid month")
+    }else{
+        "confirm inputs"
+    }
 };
 
 
@@ -49,7 +57,9 @@ function checkGender(){
         gender = "Male";
     }else if(radios[1].checked == true){
         gender = "Female";
-    };
+    }else(
+        alert()
+    )
 
 
     if(gender == "Male"){
