@@ -24,6 +24,28 @@ __Enjoy :)__
 HTML
 CSS
 Git
+Javascript
+
+## BDD
+Enter century of birth eg 20 for 2019,
+     Input Example 20
+     Output example 20
+
+* Enter year of Birth eg 19 for 2019
+     Input Example 19
+     Output Example 19
+
+* Enter month of birth eg 1 for january 
+    Input example 1
+    Output example 1
+
+* Enter Date of the month you were born in eg 20
+    input example 20
+    output example 20
+
+* Select gender 
+    Input example male
+    output male
 ### Live Site
 View [live]()
 ### Setup
@@ -34,10 +56,6 @@ To access this project on your local files, you can clone it using these steps
 1. __Enjoy :)__
 
 
-### Technologies Used
-1. HTML
-1. CSS
-1. Git
 
 
 ### Live Site
