@@ -28,7 +28,9 @@ function getBirthday(){
    
 
     if (DD <= 0 || DD > 31){
-        alert("Enter a valid one");
+        alert("Enter a valid date");
+    }else if(MM <=0 || MM > 12){
+        alert("enter a valid month");
     }else{
     alert("Enter valid details");
     };
