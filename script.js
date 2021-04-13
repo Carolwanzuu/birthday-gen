@@ -32,7 +32,7 @@ function getBirthday(){
     }else if(MM <=0 || MM > 12){
         alert("enter a valid month");
      }else{
-    alert("confirm inputs");
+    alert("Enter valid details");
     };
 
 //let day_of_the_week(d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7
